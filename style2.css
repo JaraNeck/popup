@@ -3,9 +3,10 @@
 
 body{
   
- 
-  overflow: hidden;
-  
+}
+.popup-code{
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .section{
@@ -18,7 +19,7 @@ body{
   justify-content: center;
 }
 .full-height{
-  min-height: 100vh;
+  min-height: 40vh;
 }
 
 [type="checkbox"]:checked,
@@ -32,7 +33,6 @@ body{
   background-position: center;
   background-size: cover;
   position: relative;
-
   line-height: 2;
   height: 250px;
   transition: all 200ms linear;
