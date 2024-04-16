@@ -29,6 +29,8 @@ body{
 .modal-btn:checked + label,
 .modal-btn:not(:checked) + label{
   background:url(https://www.w3schools.com/howto/img_avatar2.png) no-repeat;
+  background-position: center;
+  background-size: cover;
   position: relative;
 
   line-height: 2;
